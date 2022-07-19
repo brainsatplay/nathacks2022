@@ -1,0 +1,25 @@
+{
+  "name": "browserbci-basics",
+  "version": "0.0.0",
+  "description": "A basic data acquisition script",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tinybuild",
+    "build": "tinybuild build",
+    "serve": "tinybuild serve"
+  },
+  "author": "Garrett Flynn",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {},
+  "devDependencies": {},
+  "nodemonConfig": {
+    "env": {
+      "NODEMON": true
+    },
+    "ignore": [
+      "dist/",
+      ".temp/"
+    ]
+  }
+}

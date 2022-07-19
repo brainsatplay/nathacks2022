@@ -1,4 +1,4 @@
-# Workshops
+# workshops
 A collection of workshops hosted by Brains@Play
 
 ## 2022

@@ -11,8 +11,12 @@
   },
   "author": "Garrett Flynn",
   "license": "AGPL-3.0-or-later",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "tinybuild": "0.3.164"
+  },
   "nodemonConfig": {
     "env": {
       "NODEMON": true

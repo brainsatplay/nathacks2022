@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "start" : {}
+    },
+
+    "ports": { 
+        "input": {
+            "start": "start"
+        },
+        "output": "start"
+    }
+}

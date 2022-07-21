@@ -1,0 +1,17 @@
+{
+    "nodes": {
+        "button" : {
+            "innerHTML": "Start synthetic data generation"
+        },
+        "data" : {
+      
+        }
+    },
+
+    "ports": { 
+        "input": {
+            "data": "data"
+        },
+        "output": "button"
+    }
+}

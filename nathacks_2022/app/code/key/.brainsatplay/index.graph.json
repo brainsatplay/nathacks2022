@@ -1,0 +1,23 @@
+{
+
+    "nodes": {
+        "ui": {},
+        "datastreams": {},
+        "synthetic": {}
+    },
+
+    "edges": {
+
+        "ui.button": {
+            "synthetic": {}
+        },
+
+        "synthetic":  {
+            "datastreams.start": {}
+        },
+
+        "datastreams.start":  {
+            "ui.data": {}
+        }
+    }
+}

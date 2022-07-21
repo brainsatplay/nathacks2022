@@ -1,0 +1,7 @@
+{
+    "name": "myapp",
+    "description": "A dummy application for NATHacks 2022",
+    "type": "module",
+    "main": "./index.js",
+    "author": "Garrett Flynn"
+}

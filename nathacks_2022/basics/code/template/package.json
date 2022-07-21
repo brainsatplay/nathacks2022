@@ -4,26 +4,6 @@
   "description": "A basic data acquisition script",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "tinybuild",
-    "build": "tinybuild build",
-    "serve": "tinybuild serve"
-  },
   "author": "Garrett Flynn",
-  "license": "AGPL-3.0-or-later",
-  "dependencies": {
-    "typescript": "^4.7.4"
-  },
-  "devDependencies": {
-    "tinybuild": "0.3.164"
-  },
-  "nodemonConfig": {
-    "env": {
-      "NODEMON": true
-    },
-    "ignore": [
-      "dist/",
-      ".temp/"
-    ]
-  }
+  "license": "AGPL-3.0-or-later"
 }
